@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+        <body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+</div>
+<i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+<h1>Our Courses </h1>
+</section>
+
+<!------ Course ---->
+
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>So here are 2 free online courses that you can take up anytime.<br><i class="fa fa-cog"></i>.Graphic Designing.<br><i class="fa fa-apple"></i>.App Development.</p>
+
+    <div class="row">
+        <div class="course-col">
+             <h3>Intermediate</h3>
+             <p>In the Intermediate of art, you are given basic knowledge of the art subject. After doing Intermediate arts, you become qualified for many jobs available.</p>
+        </div>
+ <div class="course-col">
+    <h3>Degree</h3>
+    <p>Bachelor of Arts is usaully of three years duration. As part of a BA course the Student need to study five compulsory subjects along with few elective subjects.</p>
+</div>
+<div class="course-col">
+    <h3>Post Graduation</h3>
+    <p>A Postgraduate diploma is a shorter qualification than a masters degree, although at the same academic level.In order to get financial security, you need a well-playing job.</p>
+</div>
+</div>
+
+
+</section >
+
+<!-------- facilities -------->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>We Have a wide range of facilites that are open to students, staff, visitors and the local Community.</p>
+
+<div class="row">
+    <div class="facilities-col">
+        <img src="images/library.png">
+        <h3>World Class Library</h3>
+        <p>A Library ia a curated collection of sources of information and similar resources, selected by experts and made accessible to a defined community for reference or borrowing.</p>
+    </div>
+    <div class="facilities-col">
+        <img src="images/basketball.png">
+        <h3>Largest Play Ground</h3>
+        <p>A great playspace will provide play at ground level; Multi-Sensory play opportunities and a safe surface for everyone. Look for soft groundcover that can cushion a child's fall.</p>
+    </div>
+    <div class="facilities-col">
+        <img src="images/cafeteria.png">
+        <h3>Tasty and Healthy Food</h3>
+        <p>Cafeteria plans are particularly good for participants who have regular expenses related to medical issues and child car. A Counter then carry it on a tray to table to eat while cafe is a coffee shop.</p>
+    </div>
+</div>
+
+
+</section>
+
+<!----- Footer ------>
+
+<!----- Footer ---->
+
+<section class="footer">
+    <h4>About Us</h4>
+<p>The Aim of any University Should be to provide  information in a clear and<br>accessible format, promoting the best user experience possible.</p>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+</div>
+<p>MADE WITH <i class="fa fa-heart-o"></i> BY COLLEGE CAMPUS</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--------Javascript for Toggle Menu-------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showmenu(){
+navLinks.style.right = "0";
+    }
+    function hidemenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+        </body>
+    </html>
